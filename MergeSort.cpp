@@ -66,6 +66,6 @@ int main()
   std::vector<int> vec = {4,5,1,3,2,6};
   SortingAlgorithm::mergeSort(vec);
   for (int i : vec)
-    cout << i << " ";
+    cout << i << " "; // {1,2,3,4,5,6}
  return 0;
 }
